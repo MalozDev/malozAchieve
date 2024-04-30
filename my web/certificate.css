@@ -1,0 +1,53 @@
+.certifications {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.certifications .certificate {
+    grid-row: span 2;
+    text-align: center;
+    padding: 0 10%;
+    padding-bottom: 56px;
+   
+}
+
+body {
+    color: white;
+    background-color: #182630;
+}
+.cisco-logo {
+    margin-top: 116px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certifications .certificate img {
+    width: 456px;
+    height: 300px;
+    border-radius:10px;
+    object-fit: cover;
+
+}
+
+.certifications .certificate h2 {
+    color: rgb(146, 160, 201);
+    margin-bottom: 15px;
+}
+
+.certifications .certificate p {
+    color: white;
+}
+
+.certifications .certificate a {
+    color: rgb(126, 124, 124);
+    transition: .5s,col;
+    
+}
+
+.certifications .certificate a:hover {
+    color: #82f0ea;
+}
