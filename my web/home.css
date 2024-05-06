@@ -181,4 +181,9 @@
 .home-content h1 {
     animation: flyIn 1s ease forwards, breathingAnimation 4s infinite alternate;
 }
+@media (max-width: 400px) {
+    .socials {
+        margin-top: 55px;
+    }
+}
 
